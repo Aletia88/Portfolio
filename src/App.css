@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;700&family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: #112044;
+  color: #fff;
+}
+
+button {
+  border: 1px #505062 solid;
+}
+.project {
+  background: #ef6d58;
+}
+.name {
+  color: #d76555;
+  font-family: 'inter';
+}
+p, li{
+  color: #55668c;
+}
+li svg {
+  fill: #c4d1ec;
+}
+li:hover svg {
+  fill: white;
+}
+#skills p {
+  color: #51cccf;
+  background-color: #183656;
+}
+.right h1{
+  background-color: #112044;
+}
+.textWhite {
+  color: white;
+  margin-left: 25px;
+  transition: ease-out;
+  transition-duration: 300ms;
+}
+.li:hover{
+  color: white;
+}
+
+.disc:hover p{
+  color:#aaa;
+}
+.disc:hover{
+  background-color: #183656;
+}
+.disc:hover h1, .cont a{
+  color: #51cccf;
+}
+.disc:hover svg{
+  fill: #51cccf;
+  margin: 0 0 5px 5px;
+  font-weight: bold;
+}
+.lang li{
+  color: #51cccf;
+  background-color: #183656;
+  padding: 3px 6px;
+  border-radius: 20%;
+  font-size: small;
+}
+.all a:hover{
+  border-bottom: #51cccf 2px solid;
+}
+
+
